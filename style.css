@@ -908,15 +908,11 @@ html {
     .hero {
         height: 350px;
     }
-}
 
-@media (max-width: 768px) {
     .top-bar {
         display: grid;
         grid-template-columns: auto 1fr auto;
         align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
         gap: 8px;
         padding: 12px 15px;
         overflow: hidden;
@@ -975,28 +971,21 @@ html {
         justify-self: center !important;
     }
 
-    .intro-text p {
-        font-size: 17px;
-    }
-
     .fb-grid {
-        font-size: 17px;
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
-    .fb-grid img {
-        max-width: 90%;
+    .fb-left, .fb-right {
+        display: none;
     }
 
     .insta-grid {
         grid-template-columns: repeat(2,1fr);
     }
 
-    #contact-grid {
-        grid-template-columns: repeat (3, 1fr) !important;
-    }
-
     .sklep-grid {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
         gap: 15px;
         margin-bottom: 30px;
     }
@@ -1019,6 +1008,19 @@ html {
 
     .contact-body {
         padding: 30px 15px;
+    }
+
+    #contact-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .contact-card {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        text-align: left;
+        padding: 16px 20px;
     }
 }
 
