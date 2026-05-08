@@ -908,31 +908,27 @@ html {
     .hero {
         height: 350px;
     }
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
 
-    .top-bar {
-        display: grid;
-        grid-template-columns: auto 1fr auto;
-        align-items: center;
-        gap: 8px;
-        padding: 12px 15px;
-        overflow: hidden;
-    }
+.logo {
+    position: static;
+    transform: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    flex: 1;
+}
 
-    .logo {
-        font-size: 13px;
-        letter-spacing: 0.5px;
-        text-align: center;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        max-width: 70%;
-    }
-
-    .btn {
-        font-size: 10px;
-        padding: 6px 10px;
-        white-space: nowrap;
-    }
+.btn {
+    font-size: 9px;
+    padding: 6px 8px;
+    white-space: nowrap;
+}
 
     .nav ul {
         flex-direction: row;
