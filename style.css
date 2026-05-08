@@ -146,139 +146,6 @@
     border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
-@media (max-width: 768px) {
-    .hero {
-        height: 300px;
-    }
-
-    .top-bar {
-        display: grid;
-        grid-template-columns: auto 1fr auto;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 8px;
-        padding: 12px 15px;
-        overflow: hidden;
-    }
-
-    .logo {
-        font-size: 13px;
-        letter-spacing: 0.5px;
-        text-align: center;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        max-width: 70%;
-    }
-
-    .btn {
-        font-size: 10px;
-        padding: 6px 10px;
-        white-space: nowrap;
-        display: none;
-    }
-
-    .nav ul {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 0;
-    }
-
-    .nav ul li {
-        margin: 0 10px;
-    }
-
-    .nav ul li a {
-        font-size: 12px;
-        padding: 12px 0;
-    }
-
-    .footer-inner {
-        grid-template-columns: 1fr;
-        gap: 16px;
-        padding: 20px 15px;
-        text-align: center;
-    }
-
-    .footer h2, .footer h3, .footer h4 {
-        font-size: 14px;
-        margin-bottom: 4px;
-    }
-
-    .footer p {
-        font-size: 13px;
-    }
-
-    .footer-col {
-        justify-self: center !important;
-    }
-
-    .intro-text p {
-        font-size: 17px;
-    }
-
-    .fb-grid {
-        font-size: 17px;
-    }
-
-    .fb-grid img {
-        max-width: 90%;
-    }
-
-    .insta-grid {
-        grid-template-columns: repeat(2,1fr);
-    }
-
-    #contact-grid {
-        grid-template-columns: repeat (3, 1fr) !important;
-    }
-
-    .sklep-grid {
-        grid-template-columns: 1fr; 
-        gap: 15px;
-        margin-bottom: 30px;
-    }
-
-    .sklep-card {
-        width: 100%;
-    }
-
-    .sklep-btn {
-        white-space: normal;
-        width: 100%;
-        display: block;
-        text-align: center;
-        padding: 14px 20px;
-    }
-
-    .sklep-img img {
-        aspect-ratio: 4/3;
-    }
-
-    .contact-body {
-        padding: 30px 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    
-    .contact-card {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        text-align: left;
-        padding: 16px 20px;
-    }
-
-    .contact-card i {
-        font-size: 28px;
-        min-width: 28px;
-    }
-
-}
-
 .about {
     padding: 100px 20px;
     text-align: center;
@@ -1036,3 +903,138 @@ html {
 .socials a:hover {
     color: #c8a97e;
 }
+
+
+@media (max-width: 768px) {
+    .hero {
+        height: 300px;
+    }
+
+    .top-bar {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 12px 15px;
+        overflow: hidden;
+    }
+
+    .logo {
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 70%;
+    }
+
+    .btn {
+        font-size: 10px;
+        padding: 6px 10px;
+        white-space: nowrap;
+        display: none;
+    }
+
+    .nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .nav ul li {
+        margin: 0 10px;
+    }
+
+    .nav ul li a {
+        font-size: 12px;
+        padding: 12px 0;
+    }
+
+    .footer-inner {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 20px 15px;
+        text-align: center;
+    }
+
+    .footer h2, .footer h3, .footer h4 {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+
+    .footer p {
+        font-size: 13px;
+    }
+
+    .footer-col {
+        justify-self: center !important;
+    }
+
+    .intro-text p {
+        font-size: 17px;
+    }
+
+    .fb-grid {
+        font-size: 17px;
+    }
+
+    .fb-grid img {
+        max-width: 90%;
+    }
+
+    .insta-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #contact-grid {
+        grid-template-columns: repeat (3, 1fr) !important;
+    }
+
+    .sklep-grid {
+        grid-template-columns: 1fr; 
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+    .sklep-card {
+        width: 100%;
+    }
+
+    .sklep-btn {
+        white-space: normal;
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 14px 20px;
+    }
+
+    .sklep-img img {
+        aspect-ratio: 4/3;
+    }
+
+    .contact-body {
+        padding: 30px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .contact-card {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        text-align: left;
+        padding: 16px 20px;
+    }
+
+    .contact-card i {
+        font-size: 28px;
+        min-width: 28px;
+    }
+
+}
+
