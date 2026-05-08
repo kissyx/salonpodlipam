@@ -904,12 +904,13 @@ html {
     color: #c8a97e;
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .hero {
         height: 300px;
     }
+}
 
+@media (max-width: 768px) {
     .top-bar {
         display: grid;
         grid-template-columns: auto 1fr auto;
